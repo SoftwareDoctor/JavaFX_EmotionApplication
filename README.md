@@ -4,6 +4,9 @@
 
 Questo progetto è un'applicazione JavaFX che consente agli utenti di esplorare diverse emozioni come Gioia, Tristezza, Rabbia, Sorpresa, Paura e Disgusto. Ogni pulsante rappresenta un'emozione e, una volta cliccato, mostra una spiegazione dettagliata dell'emozione selezionata.
 
+![img.png](img.png)
+
+
 ## Tecnologie Utilizzate
 
 - **Java**: Linguaggio di programmazione principale utilizzato.
