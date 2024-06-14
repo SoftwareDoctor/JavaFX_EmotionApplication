@@ -24,7 +24,8 @@ Il progetto è strutturato nei seguenti file e pacchetti:
 ## Requisiti di Sistema
 
 - **Java 17** o versioni successive.
-- **Maven** (per la gestione delle dipendenze e la compilazione).
+- **Maven** 3.11.0
+- **JavaFX Maven Plugin** 0.0.8
 
 ## Istruzioni per l'Avvio
 
@@ -40,16 +41,6 @@ Il progetto è strutturato nei seguenti file e pacchetti:
     mvn clean install
     ```
 
-3. **Eseguire l'Applicazione**:
-   È possibile avviare l'applicazione direttamente da Maven utilizzando il seguente comando:
-    ```sh
-    mvn javafx:run
-    ```
-   Oppure è possibile eseguire la classe principale direttamente:
-    ```sh
-    mvn exec:java -Dexec.mainClass="it.softwaredocotor.javafxemotionapplication.EmotionApplication"
-    ```
-
 ## Dettagli sull'Interfaccia Utente
 
 L'interfaccia utente è composta da:
@@ -63,10 +54,6 @@ L'interfaccia utente è composta da:
 - **Stili**: Bottoni con colore di sfondo blu (#4169E1) e testo bianco.
 - **Layout**: Utilizzo di `BorderPane`, `VBox`, `HBox` e `ToolBar` per organizzare i componenti.
 
-## Problemi Comuni
-
-- **Errore del Percorso dell'Immagine**: Assicurarsi che il percorso dell'immagine `cuore.png` sia corretto. È possibile modificare il percorso nell'implementazione della classe `ButtonNavigationButton`.
-
 ---
 
-Questo README fornisce una panoramica dettagliata su come configurare, eseguire e comprendere il progetto "Esplora le Emozioni". Assicurarsi di seguire i passaggi correttamente per un'esperienza ottimale. Buona esplorazione delle emozioni!
+Questo README fornisce una panoramica dettagliata su come configurare, eseguire e comprendere il progetto "Esplora le Emozioni". Assicurarsi di seguire i passaggi correttamente e che il dell'immagine `cuore.png` sia corretto. È possibile modificare il percorso nell'implementazione della classe `ButtonNavigationButton`.. Buona esplorazione delle emozioni!
