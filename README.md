@@ -54,6 +54,12 @@ L'interfaccia utente è composta da:
 - **Stili**: Bottoni con colore di sfondo blu (#4169E1) e testo bianco.
 - **Layout**: Utilizzo di `BorderPane`, `VBox`, `HBox` e `ToolBar` per organizzare i componenti.
 
+### Struttura del progetto
+Il progetto è strutturato nei seguenti file e pacchetti:
+src/main/java/com/example/demo/EmotionController.java: Contiene la logica per gestire gli eventi dei pulsanti e mostrare le spiegazioni delle emozioni.
+src/main/java/com/example/demo/EmotionApplication.java: Classe principale che avvia l'applicazione JavaFX e costruisce l'interfaccia utente.
+src/main/resources/: Directory che contiene le risorse come immagini utilizzate nell'applicazione.
+
 ---
 
 Questo README fornisce una panoramica dettagliata su come configurare, eseguire e comprendere il progetto "Esplora le Emozioni". Assicurarsi di seguire i passaggi correttamente e che il dell'immagine `cuore.png` sia corretto. È possibile modificare il percorso nell'implementazione della classe `ButtonNavigationButton`.. Buona esplorazione delle emozioni!
